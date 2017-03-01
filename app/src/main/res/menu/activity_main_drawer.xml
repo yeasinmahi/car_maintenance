@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <!-- <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_electricity"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Bill" />
+        <item
+            android:id="@+id/nav_wasa"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Wasa" />
+        <item
+            android:id="@+id/nav_gas"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Gas" />
+        <item
+            android:id="@+id/nav_reports"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Reports" />
+    </group>-->
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_send"
+                android:title="About Software" />
+        </menu>
+    </item>
+    <item android:id="@+id/nav_exit"
+        android:title="Exit"></item>
+
+</menu>

@@ -1,0 +1,20 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="4dip"
+    android:layout_marginRight="4dip">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dip"
+        android:minHeight="100dip"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:id="@+id/reportTable"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="0"></TableLayout>
+    </LinearLayout>
+</HorizontalScrollView>
